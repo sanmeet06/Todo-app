@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+	height: 100vh;
+	background: #03dfff;
+	background: linear-gradient(139deg,#16ff03cb 0%,#03e2ffb6 90%);
+}
+.container{
+    position: relative;
+    max-width: 800px;
+    padding: 10px;
+    /* margin: 20%; */
+    margin-left: 24%;
+    margin-top: 15%;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: beige;
+    font-weight: 700;
+    font-variant: contextual;
+    font-family: cursive;
+}
+.inputTask{
+	width: 100%;
+	display: flex;
+	padding: 10px 0;
+}
+.inputTask > input[type="text"]{
+	width: 90%;
+	color: #333;
+	border:none;
+	border-bottom: 2px solid #666;
+	background: none;
+	padding: 10px;
+	font-size: 22px;
+	outline: none;
+}
+.inputTask button{
+	margin: 0 10px;
+	background: #222;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.notCompleted, .Completed{
+	margin: 5px 0;
+    padding: 20px;
+    font-family: cursive;
+}
+h3{
+	font-size: 28px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+ol li{
+	width: 100%;
+	padding: 18px;
+	margin: 5px 0;
+	background: #e96969bb;
+	font-size: 22px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ol.Completed li{
+	background: #00ff62;
+}
+li button{
+	float: right;
+	padding: 5px;
+	font-size: 28px;
+	line-height: 28px;
+	margin-right: 15px;
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
